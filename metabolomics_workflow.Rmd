@@ -68,7 +68,7 @@ We start getting the raw data into R:
 
 ```{r}
 ## Get the full path to the CDF files
-cdfs <- list.files("samples/")
+cdfs <- list.files()
 cdfs <- cdfs[grepl("CDF", cdfs)]
 cdfs
 ```
@@ -107,7 +107,7 @@ Up to now nothing has been actually loaded into R. To do that:
 ```{r}
 ## As you can see the data frame with the phenotypic data is included inside the object holding the raw data
 raw_data <- readMSData(
-  files = paste0("samples/", phenodata$filename), 
+  files = paste0(phenodata$filename), 
   pdata = new("NAnnotatedDataFrame", 
               phenodata), ## this is the structure of xcms holding phenotypic data
   mode = "onDisk")  ## with this parameter the data are not loaded into RAM
