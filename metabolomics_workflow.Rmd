@@ -55,7 +55,7 @@ The raw data files (both in mzML and CDF format) are available from the [MetaboL
 - L037_029_LPGe_RP_pos01.CDF  
 - L047_037_LPGa_RP_pos01.CDF
 
-You have to download them (in `.CDF` format) and save them on your PC in a folder called `samples` located in the same directory as this `.Rmd` file. Each file contains data in centroid mode acquired in positive ESI mode over a mass range from 50 to 2000 Da by using a chromatography of 28 minutes.   
+You have to download them (in `.CDF` format) and save them on your PC in the same directory as this `.Rmd` file. Each file contains data in centroid mode acquired in positive ESI mode over a mass range from 50 to 2000 Da by using a chromatography of 28 minutes.   
 
 **Note** A large part of this tutorial is taken from the official [vignette of `xcms`](https://bioconductor.org/packages/release/bioc/vignettes/xcms/inst/doc/xcms.html). Many thanks to Steffen Neumann and Johannes Rainer! 
 
