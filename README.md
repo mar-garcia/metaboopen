@@ -1,2 +1,3 @@
-# Metabo-Open 2021
-This repository contains the material of the session "R-based XCMS data processing of untargeted metabolomics data" from the "Practical Part II" of the Virtual Training School on Metabolomics Fair Data Management [METABO-OPEN 2021](https://integrape.eu/event/metabo-open-2021/)
+# Metabo-Open 2022
+This repository contains the presentation of the lecture `Preprocessing and quality assessment of untargeted metabolomics data` and the material of the hands-on session `R and XCMS` from the of the `Second Training School in Metabolomics Fair Data Management` [METABO-OPEN 2022](https://integrape.eu/metabo-open-2022/)
+
