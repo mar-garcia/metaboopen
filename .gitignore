@@ -1,2 +1,7 @@
 *.CDF
 *.html
+*.jpg
+*.png
+*.docx
+*.css
+*_QC.Rmd
